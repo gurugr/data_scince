@@ -1,0 +1,14 @@
+prefix=/Users/imac/Desktop/Data_Scince/env
+exec_prefix=/Users/imac/Desktop/Data_Scince/env
+libdir=/Users/imac/Desktop/Data_Scince/env/lib
+includedir=/Users/imac/Desktop/Data_Scince/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.4.17
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/Users/imac/Desktop/Data_Scince/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

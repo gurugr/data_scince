@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/imac/Desktop/Data_Scince/env
+exec_prefix=/Users/imac/Desktop/Data_Scince/env
+libdir=/Users/imac/Desktop/Data_Scince/env/lib
+includedir=/Users/imac/Desktop/Data_Scince/env/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.5
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -Qunused-arguments -pthread -lpthread
